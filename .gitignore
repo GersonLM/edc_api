@@ -47,7 +47,7 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
-# variables.env
+variables.env
 
 
 /build
