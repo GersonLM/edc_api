@@ -15,6 +15,9 @@ const MembersSchema =  new Schema(
         birthday:{
             type:Date, required:true
         },
+        phone:{
+            type:Date, required:true
+        },
         sexo:{
             type:String, required:false
         },
@@ -22,6 +25,9 @@ const MembersSchema =  new Schema(
             type:String, required:true
         },
         baptizedWater:{
+            type:String, required:true
+        },
+        baptized:{
             type:String, required:true
         },
         civilStatus:{
