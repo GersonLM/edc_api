@@ -16,7 +16,7 @@ const MembersSchema =  new Schema(
             type:Date, required:true
         },
         phone:{
-            type:Date, required:true
+            type:String, required:true
         },
         sexo:{
             type:String, required:false
